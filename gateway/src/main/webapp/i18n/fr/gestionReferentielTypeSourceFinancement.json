@@ -1,0 +1,30 @@
+{
+  "gatewayApp": {
+    "gestionReferentielTypeSourceFinancement": {
+      "home": {
+        "title": "TypeSourceFinancements",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Type Source Financement",
+        "createOrEditLabel": "Créer ou éditer un Type Source Financement",
+        "notFound": "Aucun Type Source Financement trouvé"
+      },
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Type Source Financement {{ id }} ?"
+      },
+      "detail": {
+        "title": "Type Source Financement"
+      },
+      "id": "ID",
+      "code": "Code",
+      "libelle": "Libelle",
+      "entrepriseTypeSourceFinancement": "Entreprise Type Source Financement"
+    }
+  },
+  "gestionReferentielApp": {
+    "gestionReferentielTypeSourceFinancement": {
+      "created": "Un nouveau Type Source Financement a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Type Source Financement avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Type Source Financement avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

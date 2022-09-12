@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "application",
+      "type": "sn.ias.gateway.config.ApplicationProperties",
+      "sourceType": "sn.ias.gateway.config.ApplicationProperties"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

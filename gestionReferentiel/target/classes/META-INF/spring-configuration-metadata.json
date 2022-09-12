@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "application",
+      "type": "sn.ias.gestionreferentiel.config.ApplicationProperties",
+      "sourceType": "sn.ias.gestionreferentiel.config.ApplicationProperties"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

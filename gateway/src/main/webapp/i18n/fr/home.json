@@ -1,0 +1,17 @@
+{
+  "home": {
+    "title": "Bienvenue, sur E-SIGMAP !",
+    "subtitle": "La plateforme web de gestion des marchés publics",
+    "logged": {
+      "message": "Vous êtes connecté en tant que \"{{username}}\"."
+    },
+    "question": "Si vous avez des questions à propos de JHipster :",
+    "link": {
+      "homepage": "Page d'accueil de E-SIGMAP",
+      "stackoverflow": "Retrouvez-nous sur Facebook",
+      "follow": "Suivez @eSigmap sur Twitter"
+    },
+    "like": "Si vous aimez E-SIGMAP, donnez nous une étoile sur",
+    "github": "GitHub "
+  }
+}

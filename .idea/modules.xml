@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GesMicroservice.iml" filepath="$PROJECT_DIR$/GesMicroservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gesReferentiel/ges-referentiel.iml" filepath="$PROJECT_DIR$/gesReferentiel/ges-referentiel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gestionReferentiel/gestion-referentiel.iml" filepath="$PROJECT_DIR$/gestionReferentiel/gestion-referentiel.iml" />
+    </modules>
+  </component>
+</project>

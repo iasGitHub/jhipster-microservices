@@ -1,0 +1,37 @@
+
+
+entity TypeSourceFinancement {
+	code String
+	libelle String
+}
+
+entity Entreprise {
+	nom String
+    ninea String
+    dateCreation LocalDate
+    nbreEmploye Integer
+}
+
+
+relationship ManyToOne {
+	TypeSourceFinancement{entrepriseTypeSourceFinancement} to Entreprise
+}
+
+
+// Use Data Transfer Objects (DTO)
+dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
+// Set pagination options
+paginate TypeSourceFinancement, Entreprise with infinite-scroll
+
+// Use Data Transfer Objects (DTO)
+// dto * with mapstruct
+
+
+// Set an angular suffix
+// angularSuffix * with mySuffix

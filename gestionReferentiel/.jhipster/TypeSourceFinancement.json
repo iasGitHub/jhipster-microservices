@@ -1,0 +1,33 @@
+{
+  "applications": "*",
+  "changelogDate": "20220909095404",
+  "clientRootFolder": "gestionReferentiel",
+  "databaseType": "sql",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "type_source_financement",
+  "fields": [
+    {
+      "fieldName": "code",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libelle",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "gestionReferentiel",
+  "name": "TypeSourceFinancement",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "entreprise",
+      "relationshipName": "entrepriseTypeSourceFinancement",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

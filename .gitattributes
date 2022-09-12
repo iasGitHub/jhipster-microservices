@@ -1,0 +1,4 @@
+gateway/target/node/node filter=lfs diff=lfs merge=lfs -text
+gateway/target/angular/14.1.0/angular-webpack/fa943f9fda10a7d62ddd8b95c8d34c69b789029f/0.pack -filter=lfs -diff=lfs -merge=lfs -text
+gateway/target/angular/14.1.0/angular-webpack/111479caaa88145258f95b4142fd2bad1ec9260e/7.pack -filter=lfs -diff=lfs -merge=lfs -text
+.gitattributes -filter=lfs -diff=lfs -merge=lfs -text
